@@ -1,0 +1,34 @@
+{
+  "name": "reactchatapp",
+  "version": "0.1.0",
+  "private": true,
+  "homepage" : "https://saharanit6288.github.io/react-chat-app/",
+  "dependencies": {
+    "@pusher/chatkit-client": "^1.11.0",
+    "@pusher/chatkit-server": "^2.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.1"
+  },
+  "scripts": {
+    "start": "set PORT=5010 && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
